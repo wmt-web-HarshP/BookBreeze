@@ -4,7 +4,7 @@ console.log(process.env.REACT_APP_API_URL, "api url");
 
 // Create axios instance with default config
 const api = axios.create({
-    baseURL: process.env.REACT_APP_API_URL || 'http://192.168.1.142:5959/api',
+    baseURL: process.env.REACT_APP_API_URL || 'https://bookbreeze-l6s2.onrender.com/api',
     headers: {
         'Content-Type': 'application/json'
     },
